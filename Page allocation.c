@@ -9,7 +9,6 @@ struct PageTable
     int Pageno;
     int frameno;
 };
-
 struct PageTable pt[MAX_PROCESS];
 
 int frame[FRAMES];
